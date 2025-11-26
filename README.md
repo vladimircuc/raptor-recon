@@ -80,3 +80,7 @@ cat targets.txt
 
 # run the script from the directory where you want results saved
 ./oscp-auto-enum.sh targets.txt
+```
+
+ceva
+
