@@ -126,7 +126,6 @@ Every generated `.txt` file starts with metadata at the top:
 
 COMMAND RAN: <exact command executed>
 RUN AT: <ISO-8601 timestamp>
---------------------------------------------------
 
 This makes it easy to replay, debug, or modify the commands later.
 
