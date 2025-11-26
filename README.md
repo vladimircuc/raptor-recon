@@ -82,5 +82,46 @@ cat targets.txt
 ./oscp-auto-enum.sh targets.txt
 ```
 
-ceva
+For each target X.X.X.X, the script creates:
 
+```bash
+X.X.X.X/
+├── port-enum/
+│   ├── rust.txt
+│   ├── udp.txt
+│   ├── tcp_open_ports.txt
+│   ├── udp_open_ports.txt
+│   └── .raw/
+│       ├── rust.txt
+│       └── udp.txt
+├── http/
+│   └── <port>/
+│       ├── dirsearch/
+│       │   ├── output-default.txt
+│       │   ├── output-common.txt
+│       │   └── output-dirbuster.txt
+│       ├── gobuster/
+│       │   └── gobuster.txt
+│       ├── scanners/
+│       │   ├── whatweb.txt
+│       │   └── cmseek.txt
+│       └── .raw/
+│           ├── dirsearch-default.txt
+│           ├── dirsearch-common.txt
+│           └── dirsearch-dirbuster.txt
+├── smb/
+│   ├── enum4linux-ng.txt
+│   ├── smbclient.txt
+│   ├── smbclient-guest.txt
+│   └── smbmap.txt
+├── ftp/
+│   └── ftp-anon.txt
+├── rpc/
+│   ├── rpc-windows.txt         (Windows targets)
+│   ├── rpc-users-list.txt      (extracted users, Windows)
+│   └── rpc-linux.txt           (Linux targets)
+├── ident/
+│   └── ident.txt
+└── ntp/
+    └── ntp.txt
+```
