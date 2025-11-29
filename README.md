@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/raptor.png" width="350">
+  <img src="assets/raptor.png" width="500">
 </p>
 
 # RaptorRecon
