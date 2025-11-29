@@ -1,7 +1,7 @@
 # RaptorRecon
 
 <p align="center">
-  <img src="assets/raptor.png" width="450>
+  <img src="assets/raptor.png" width="350">
 </p>
 
 
