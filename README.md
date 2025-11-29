@@ -1,4 +1,4 @@
-# oscp-auto-enum
+# RaptorRecon
 
 `oscp-auto-enum.sh` is a Bash script that automates **OSCP-style enumeration** for one or more targets.
 It wraps RustScan, Nmap, HTTP/S enumeration tools, SMB/FTP/RPC checks, and a few service-specific
