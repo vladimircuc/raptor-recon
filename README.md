@@ -1,9 +1,8 @@
-# RaptorRecon
-
 <p align="center">
-  <img src="assets/raptor.png" width="350">
+  <img src="assets/raptor.png" width="250">
 </p>
 
+# RaptorRecon
 
 `raptor-recon.sh` is a Bash script that automates **OSCP-style enumeration** for one or more targets.
 It wraps RustScan, Nmap, HTTP/S enumeration tools, SMB/FTP/RPC checks, and a few service-specific
