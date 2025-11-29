@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/raptor.png" width="250">
-</p>
+
 
 # RaptorRecon
 
