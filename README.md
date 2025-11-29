@@ -1,6 +1,6 @@
 # RaptorRecon
 
-`oscp-auto-enum.sh` is a Bash script that automates **OSCP-style enumeration** for one or more targets.
+`raptor-recon.sh` is a Bash script that automates **OSCP-style enumeration** for one or more targets.
 It wraps RustScan, Nmap, HTTP/S enumeration tools, SMB/FTP/RPC checks, and a few service-specific
 helpers, and saves everything into a clean per-host folder structure with timestamps and full commands.
 
@@ -65,7 +65,7 @@ Adjust the wordlist paths in the script if your distro stores them differently.
 ## Usage
 
 ```bash
-chmod +x oscp-auto-enum.sh
+chmod +x raptor-recon.sh
 
 # targets.txt: one IP/host per line
 cat targets.txt
@@ -73,7 +73,7 @@ cat targets.txt
 10.10.11.124
 
 # run the script from the directory where you want results saved
-./oscp-auto-enum.sh targets.txt
+./raptor-recon.sh targets.txt
 ```
 
 For each target X.X.X.X, the script creates:
